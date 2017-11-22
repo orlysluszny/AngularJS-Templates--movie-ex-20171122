@@ -1,4 +1,4 @@
-app.controller("movieCtrl", function ($scope, $http) {
+app.controller("movieCtrl", function ($scope, $http, convert) {
 
         function Movie(name, time, director,actors, link) {
             this.name = name;
@@ -14,5 +14,5 @@ app.controller("movieCtrl", function ($scope, $http) {
         }, function myError(response) {
             alert("error" + JSON.stringify(response.status));
           })
-
+          $log.log(convert.time(n));
         });

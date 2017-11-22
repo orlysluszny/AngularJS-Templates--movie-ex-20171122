@@ -1,69 +1,69 @@
 [{
     "name":"PULP FICTION", 
-    "time":" 2h 34min ",
+    "time":" 154min ",
     "director":" Quentin TARANTINO",
     "actors":["John Travolta", "Uma Thurman", "Samuel L. Jackson"],
     "link":"http://www.imdb.com/title/tt0110912/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=3376940102&pf_rd_r=1S8EPFHQ50MH0ABRQHV4&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=top&ref_=chttp_tt_7"
 },
 {
     "name":"Gone with the wind", 
-    "time":" 3h 58min ",
+    "time":" 238min ",
     "director":" Victor Fleming",
     "actors":[ "Clark Gable", "Vivien Leigh", "Thomas Mitchell" ],
     "link":"http://www.imdb.com/title/tt0031381/?ref_=nv_sr_1"
 },
 {
     "name":"Modern Times", 
-    "time":" 1h 27min ",
+    "time":" 87min ",
     "director":" Giuseppe Tornatore ",
     "actors":[ " Charles Chaplin", "Paulette Goddard", "Henry Bergman" ],
     "link":"http://www.imdb.com/title/tt0027977/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=3376940102&pf_rd_r=1S8EPFHQ50MH0ABRQHV4&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=top&ref_=chttp_tt_38"
 },
 {
     "name":"Cinema Paradiso", 
-    "time":" 2h 35min ",
+    "time":" 155min ",
     "director":" Victor Fleming",
     "actors":[ " Philippe Noiret", "Enzo Cannavale", "Antonella Attili " ],
     "link":"http://www.imdb.com/title/tt0095765/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=3376940102&pf_rd_r=1S8EPFHQ50MH0ABRQHV4&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=top&ref_=chttp_tt_55"
 },
 {
     "name":"Lawrence of Arabia", 
-    "time":" 3h 36min ",
+    "time":" 216min ",
     "director":"David Lean",
     "actors":[ " Peter O'Toole", "Alec Guinness", "Anthony Quinn" ],
     "link":"http://www.imdb.com/title/tt0056172/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=3376940102&pf_rd_r=1S8EPFHQ50MH0ABRQHV4&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=top&ref_=chttp_tt_84"
 },
 {
     "name":"Monty Python and the Holy Grail", 
-    "time":" 1h 31min ",
+    "time":" 91min ",
     "director":" Graham Chapman",
     "actors":[ " Graham Chapman", "John Cleese", "Eric Idle " ],
     "link":"http://www.imdb.com/title/tt0071853/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=3376940102&pf_rd_r=1S8EPFHQ50MH0ABRQHV4&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=top&ref_=chttp_tt_102"
 },
 {
     "name":"Amadeus", 
-    "time":" 2h 40min ",
+    "time":" 160min ",
     "director":" Milos Forman",
     "actors":[ " F. Murray Abraham", "Tom Hulce", "Elizabeth Berridge " ],
     "link":"http://www.imdb.com/title/tt0086879/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=3376940102&pf_rd_r=1S8EPFHQ50MH0ABRQHV4&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=top&ref_=chttp_tt_86"
 },
 {
     "name":"The Good, the Bad and the Ugly", 
-    "time":" 2h 58min ",
+    "time":" 178min ",
     "director":" Sergio Leone",
     "actors":[ " Clint Eastwood", "Eli Wallach", "Lee Van Cleef" ],
     "link":"http://www.imdb.com/title/tt0060196/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=3376940102&pf_rd_r=1S8EPFHQ50MH0ABRQHV4&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=top&ref_=chttp_tt_9"
 },
 {
     "name":"Pirates of the Caribbean: The Curse of the Black Pearl", 
-    "time":" 2h 23min ",
+    "time":" 143min ",
     "director":"  Gore Verbinski ",
     "actors":[ " Johnny Depp", "Geoffrey Rush", "Orlando Bloom " ],
     "link":"http://www.imdb.com/title/tt0325980/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=3376940102&pf_rd_r=1S8EPFHQ50MH0ABRQHV4&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=top&ref_=chttp_tt_248"
 },
 {
     "name":"Fame", 
-    "time":" 2h 14min ",
+    "time":" 134min ",
     "director":" Alen Parker",
     "actors":[ " Eddie Barth", "Irene Cara", "Lee Curreri" ],
     "link":"http://www.imdb.com/title/tt0080716/?ref_=nv_sr_2"
