@@ -1,12 +1,5 @@
-app.controller("movieCtrl", function ($scope, $http, convert, $log) {
+app.controller("movieCtrl", function ($scope, $http, convert, $log, Movie) {
 
-        function Movie(name, time, director,actors, link) {
-            this.name = name;
-            this.time = convert.time(time);
-            this.director = director;
-            this.actors = actors;
-            this.link = link;
-        }
     
         $scope.movies = [];
         $http.get("movie.json").then(function mySuccess(response) {
