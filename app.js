@@ -1,3 +1,3 @@
 // Code goes here
 
-var app = angular.module("movieApp", []);
+var app = angular.module("movieApp", ["ngRoute"]);
