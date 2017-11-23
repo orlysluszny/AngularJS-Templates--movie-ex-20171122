@@ -1,7 +1,7 @@
 
-movieApp.directive("movieNavbar", function() {
+app.directive("movieNavbar", function() {
     return {
-        templateUrl: "app/nav/nav.html",
+        templateUrl: "nav/nav.html",
         controller: "navCtrl"
     }
 })

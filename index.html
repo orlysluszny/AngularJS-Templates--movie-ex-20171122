@@ -5,51 +5,32 @@
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>  
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="style.css">
+  <!--<link rel="stylesheet" href="style.css">-->
   <script src="app.js"></script>
   <script src="convertService.js"></script>
-  <script src="actor/Actor.js"></script>
-  <script src="actor/actorCtrl.js"></script>
+  <script src="actors/Actor.js"></script>
+  <script src="actors/actorCtrl.js"></script>
   <script src="movie/movieCtrl.js"></script>
   <script src="movie/Movie.js"></script>  
   <script src="movie/movieDirective.js"></script>
   <script src="nav/navCtrl.js"></script>
   <script src="nav/navDirective.js"></script>
 </head>
-
 <body>
-  <div class="container">
-    <div class="jumbotron" ng-controller="actorCtrl">
-    <h1>Movie App - Actors Gallery</h1>
-    Search by First Name: <input type="text" ng-model="query.firstName" />
-    <br>
-    <br>
-    <button type="button" class="btn btn-default" ng-click="sortByFirstName()">Sort by First Name</button>
-    <br>
-    <br>
-    <div class="row">   
-    <div ng-repeat="actor in actors | filter : query | orderBy: orderProp " class="column col-xs-12 col-sm-10 col-md-5 col-lg-4">
-        <a href= {{actor.imdbURL}} target="_blank">
-        <img ng-src={{actor.img}} alt=""/>
-        <br>
-        <br>
-        {{actor.firstName+ ' ' +actor.lastName}}
-        <br>
-        <br>
-        <br>
-        <br>
-        
-    </div> 
-    </div>
-    </div>
-  <div ng-controller="movieCtrl" class="jumbotron row">
-  <h1> My Top 10 Movies</h1>
-  <my-movie ng-repeat="movie in movies"></my-movie>
-  </div>
-  <ng-view></ng-view>
-  
-</div>
+  <nav class="navbar navbar-inverse">
+    <a class="navbar-brand" href="#!">Movie App</a>
+    <ul class="nav navbar-nav">
+        <li ng-class="{active : isActive('movies')}">
+            <a href="#!/movies">Movies</a>
+        </li>
+        <li ng-class="{active : isActive('actor')}">
+            <a href="#!/actor">Actor</a>
+        </li>
+    </ul>
+</nav> 
+<ng-view></ng-view>
 
 </body>
+  
 
 </html>

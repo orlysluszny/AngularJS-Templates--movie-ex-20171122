@@ -1,6 +1,6 @@
 app.directive("myMovie", function(){
     return {
-      templateUrl: "movie.html",
+      templateUrl: "movie/movies.html",
       //restrict: "E"
     };
   });

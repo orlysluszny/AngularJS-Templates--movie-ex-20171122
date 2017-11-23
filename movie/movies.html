@@ -1,0 +1,22 @@
+<div class="container">    
+    <div ng-controller="movieCtrl" class="jumbotron row">
+        <h1> My Top 10 Movies</h1>
+        <my-movie ng-repeat="movie in movies"></my-movie>
+        <div class="column col-xs-12 col-sm-10 col-md-5 col-lg-4">
+                <my-movie ng-repeat="movie in movies"></my-movie> 
+                <h2>Movie Name: </h2>
+                <a href={{movie.link}} target="_blank">
+                <h3>{{movie.name}}</h3>
+                </a> 
+                <h3>Director:{{movie.director}}</h3>
+                <h3>Duration: {{movie.time}}</h3>
+                <h3>Actors:
+                <span ng-repeat="actor in movie.actors">
+                {{actor}}
+                </span>
+                </h3>
+                <br>        
+        </div>
+        
+    </div>
+</div>
