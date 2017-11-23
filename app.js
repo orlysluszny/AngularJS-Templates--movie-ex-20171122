@@ -8,8 +8,8 @@ app.config(function($routeProvider) {
         templateUrl: "actors/actor.html"
         
     })
-    .when("/movies", {
-        templateUrl: "movie/movies.html"
+    .when("/movie", {
+        templateUrl: "movie/movie.html"
     })
     
  
